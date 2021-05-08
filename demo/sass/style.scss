@@ -1,0 +1,37 @@
+@charset "utf-8";
+/**
+* Created by Toma on 2016年5月31日10:19:47
+* 昂沁后台模板
+*/
+
+.to-nav{
+  margin-bottom: 0;
+  .to-brand,.to-navbar a{
+    padding: 15px 20px;
+  }
+}
+.to-jumbo{
+  background: #245269;
+  color: #fff;
+  padding: 10px 20px 20px;
+}
+.footer{
+  background: #E4E4E4;
+  color: #777;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.to-content{
+  padding: 20px;
+}
+.mt30{
+  margin-top: 30px;
+}
+
+.to-select{
+  .input-group{
+    margin-bottom: 10px;
+  }
+}
