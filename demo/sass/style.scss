@@ -1,37 +1,67 @@
 @charset "utf-8";
-/**
+/*!
 * Created by Toma on 2016年5月31日10:19:47
 * 昂沁后台模板
 */
 
-.to-nav{
-  margin-bottom: 0;
-  .to-brand,.to-navbar a{
-    padding: 15px 20px;
+
+@import "toma";
+
+
+/*!
+* 登录页面
+*/
+.loginbox{
+  @include pos(50%,50%);
+  background-color: rgba(157,149,123,.5);
+  width: 560px;
+  height: 476px;
+  margin-left: -280px;
+  margin-top: -238px;
+  border-radius: 6px;
+  z-index: 50;
+}
+.carent-logo{
+  text-align: center;
+  padding: 40px 0;
+}
+.login-content{
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  .form-group{
+    margin-bottom: 20px;
+    position: relative;
+    i{
+      @include pos(19px,24px);
+      font-size: 20px;
+    }
   }
 }
-.to-jumbo{
-  background: #245269;
+.ms-inp{
+  height: 60px;
+  padding-left: 60px;
+  background-color: transparent;
+  border-color: #afab9f!important;
   color: #fff;
-  padding: 10px 20px 20px;
+  @include pach(#eaeaea);
 }
-.footer{
-  background: #E4E4E4;
-  color: #777;
-  padding: 10px;
-  position: absolute;
-  bottom: 0;
+.btn-login{
+  height: 60px;
   width: 100%;
-}
-.to-content{
-  padding: 20px;
-}
-.mt30{
-  margin-top: 30px;
+  background: #d4d4d4;
+  color: #73757a;
+  font-size: 20px;
+  margin-bottom: 16px;
 }
 
-.to-select{
-  .input-group{
-    margin-bottom: 10px;
-  }
+.log-bg {
+  @include pos(0,0);
+  @include bg(100%,100%);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
 }
