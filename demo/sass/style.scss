@@ -4,13 +4,54 @@
 * 昂沁后台模板
 */
 
+// theme
+$theme: #333c48;
 
 @import "toma";
 
+/*!
+* 侧边栏
+*/
+.sidebar_left{
+  @include pos(52px,0,fixed);
+  width: 200px;
+  height: 100%;
+  z-index: 100;
+  background: $theme;
+}
+.nav-link{
+  height: 60px;
+  line-height: 60px;
+  padding: 0 0 0 20px !important;
+  background-color: transparent !important;
+  color: #fff !important;
+  font-size: 16px;
+  i{
+    margin-right: 15px;
+  }
+  &::after{
+    content: '>';
+    font-family: 'sans-serif';
+    float: right;
+    padding-right: 20px;
+  }
+  &:hover,&.active{
+    background-color: #262d36 !important;
+  }
+}
 
 
-
-
+/*!
+* 导航
+*/
+.to-nav{
+  background-color: $theme;
+  border-color: $theme;
+  border-radius: 0;
+}
+.navbar-inverse .navbar-brand{
+  color: #fff;
+}
 
 /*!
 * 登录页面
