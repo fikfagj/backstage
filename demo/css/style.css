@@ -3,8 +3,10 @@
 * 昂沁后台模板
 *//*!
 * 侧边栏
-*/.sidebar_left{position:fixed;top:52px;left:0;width:200px;height:100%;z-index:100;background:#333c48}.nav-link{height:60px;line-height:60px;padding:0 0 0 20px !important;background-color:transparent !important;color:#fff !important;font-size:16px}.nav-link i{margin-right:15px}.nav-link::after{content:'>';font-family:'sans-serif';float:right;padding-right:20px}.nav-link:hover,.nav-link.active{background-color:#262d36 !important}/*!
+*/.sidebar_left{position:fixed;top:50px;left:0;width:200px;height:100%;z-index:100;background:#333c48}.nav-link{height:60px;line-height:60px;padding:0 0 0 20px !important;background-color:transparent !important;color:#fff !important;font-size:15px}.nav-link i{margin-right:15px}.nav-link::after{content:'>';font-family:'sans-serif';float:right;padding-right:20px}.nav-link:hover,.nav-link.active{background-color:#262d36 !important}/*!
 * 导航
 */.to-nav{background-color:#333c48;border-color:#333c48;border-radius:0}.navbar-inverse .navbar-brand{color:#fff}/*!
+* 主体
+*/.content{margin-left:200px;margin-top:50px}.content .con-wap{padding:15px}/*!
 * 登录页面
 */.loginbox{position:absolute;top:50%;left:50%;background-color:rgba(157,149,123,0.5);width:560px;height:476px;margin-left:-280px;margin-top:-238px;border-radius:6px;z-index:50}.carent-logo{text-align:center;padding:40px 0}.login-content{width:80%;margin:0 auto;color:#fff}.login-content .form-group{margin-bottom:20px;position:relative}.login-content .form-group i{position:absolute;top:19px;left:24px;font-size:20px}.ms-inp{height:60px;padding-left:60px;background-color:transparent;border-color:#afab9f !important;color:#fff}.ms-inp:-moz-placeholder,.ms-inp textarea:-moz-placeholder{color:#eaeaea}.ms-inp::-moz-placeholder,.ms-inp textarea::-moz-placeholder{color:#eaeaea}.ms-inp:-ms-input-placeholder,.ms-inp textarea:-ms-input-placeholder{color:#eaeaea}.ms-inp::-webkit-input-placeholder,.ms-inp textarea::-webkit-input-placeholder{color:#eaeaea}.btn-login{height:60px;width:100%;background:#d4d4d4;color:#73757a;font-size:20px;margin-bottom:16px}.log-bg{position:absolute;top:0;left:0;width:100%;height:100%;background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover;background-size:cover}.swiper-slide{background-position:center;background-size:cover}
