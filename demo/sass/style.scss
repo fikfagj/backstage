@@ -63,6 +63,23 @@ $theme: #333c48;
     padding: 15px;
   }
 }
+.to-h2{
+  margin-top: 10px;
+}
+.min-img{
+  display: inline-block;
+  @include bg(32px,32px);
+  -webkit-background-size: cover;
+  background-size: cover;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.table td{
+  vertical-align: middle !important;
+}
+.dropdown-menu>li>a{
+  padding: 8px 20px;
+}
 
 /*!
 * 分页
